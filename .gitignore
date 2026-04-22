@@ -1,1 +1,142 @@
-*.db
+# -------------------------
+
+# Jupyter Notebook
+
+# -------------------------
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Optional: ignore notebook outputs (if you clean before commit, keep notebooks)
+
+# Uncomment below ONLY if needed
+
+# *.ipynb
+
+# -------------------------
+
+# Python
+
+# -------------------------
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# -------------------------
+
+# Virtual Environment
+
+# -------------------------
+
+venv/
+env/
+ENV/
+.venv/
+
+# -------------------------
+
+# Data Files (VERY IMPORTANT)
+
+# -------------------------
+
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# If you want to keep small sample data:
+
+# !data/sample.csv
+
+# -------------------------
+
+# Model Files
+
+# -------------------------
+
+models/
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# -------------------------
+
+# Logs
+
+# -------------------------
+
+logs/
+*.log
+
+# -------------------------
+
+# Environment Variables / Secrets
+
+# -------------------------
+
+.env
+.env.*
+*.env
+
+# -------------------------
+
+# IDE / Editor Files
+
+# -------------------------
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+
+# OS Files
+
+# -------------------------
+
+.DS_Store
+Thumbs.db
+
+# -------------------------
+
+# Temporary / Cache
+
+# -------------------------
+
+*.tmp
+*.temp
+.cache/
+*.cache
+
+# -------------------------
+
+# Streamlit (if used)
+
+# -------------------------
+
+.streamlit/secrets.toml
+
+# -------------------------
+
+# Docker (if used)
+
+# -------------------------
+
+*.dockerignore
+
+# -------------------------
+
+# Misc
+
+# -------------------------
+
+*.bak
+*.swp
